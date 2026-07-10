@@ -17,3 +17,22 @@ conda activate FM2-Net
 ```
 pip install torch==2.0.0 torchvision==0.15.1 --index-url https://download.pytorch.org/whl/cu117
 ```
+
+````
+   Data
+   |-- USOD10K
+   |   |-- USOD10K-TR
+   |   |-- |-- USOD10K-TR-RGB
+   |   |-- |-- USOD10K-TR-GT
+   |   |-- |-- USOD10K-TR-depth
+   |   |-- |-- USOD10K-TR-Boundary
+   |   |-- USOD10K-Val
+   |   |-- |-- USOD10K-Val-RGB
+   |   |-- |-- USOD10K-Val-GT
+   |   |-- |-- USOD10K-Val-depth
+   |   |-- |-- USOD10K-Val-Boundary
+   |   |-- USOD10K-TE
+   |   |-- |-- USOD10K-TE-RGB
+   |   |-- |-- USOD10K-TE-GT
+   |   |-- |-- USOD10K-TE-depth
+````
