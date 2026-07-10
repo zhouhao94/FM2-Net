@@ -5,6 +5,12 @@
 > [**Hao Zhou, Xu Yang, Hai Huang, Min Liu, Jie-Ming Ma, Chao-Meng Chen, Xu-Yao Zhang, Fei Luo**  
 > **arXiv preprint arXiv:2603.06231**
 
+## 🎞️ Pipeline
+<div align="center">
+  <img src="modules.jpg"/>
+</div><br/>
+
+
 ## 🛠️ Get started
 
 ### Set up a new virtual environment
@@ -62,18 +68,18 @@ python3 train_test_eval.py --Testing True --Evaluation True
 ## ⭐ Results and checkpoints
 FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes.
 ### Results on the USOD10K dataset
-| Models | S-measure ↑ | maxF ↑ | maxE ↑ | MAE ↓ |
+| Models | S-measure ↑ | maxE ↑ | maxF ↑ | MAE ↓ |
 | :-- | :-: | :-: | :-: | :-: |
 | FM2-Net | 0.9285 | 0.9702 | 0.9276 | 0.0183 |
 
 ### Results on the USOD dataset
-| Models | S-measure ↑ | maxF ↑ | maxE ↑ | MAE ↓ |
+| Models | S-measure ↑ | maxE ↑ | maxF ↑ | MAE ↓ |
 | :-- | :-: | :-: | :-: | :-: |
 | FM2-Net | 0.9019 | 0.9379 | 0.9160 | 0.0414 |
 
 ### Qualitative Results
 <div align="center">
-  <img src="assets/visual.jpg"/>
+  <img src="visual_comparisons.jpg"/>
 </div><br/>
 
 
