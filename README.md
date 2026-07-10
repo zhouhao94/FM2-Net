@@ -18,6 +18,12 @@ conda activate FM2-Net
 pip install torch==2.0.0 torchvision==0.15.1 --index-url https://download.pytorch.org/whl/cu117
 ```
 
+### Clone and Install FM2-Net
+```
+git clone https://github.com/zhouhao94/FM2-Net.git
+cd FM2-Net
+```
+
 ## 🕹️ Prepare the data
 ### Setup [USOD10K dataset](https://www.argoverse.org/av2.html)
 ````
@@ -38,3 +44,43 @@ pip install torch==2.0.0 torchvision==0.15.1 --index-url https://download.pytorc
    |   |-- |-- USOD10K-TE-GT
    |   |-- |-- USOD10K-TE-depth
 ````
+
+## 🔥 Training and testing
+
+### Training FM2-Net
+```
+cd FM2-Net/USOD
+python3 train_test_eval.py --Training True --Testing True --Evaluation True
+```
+
+### Testing FM2-Net
+```
+cd FM2-Net/USOD
+python3 train_test_eval.py --Testing True --Evaluation True
+```
+
+## ⭐ Results and checkpoints
+FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes.
+### Results on the USOD10K dataset
+| Models | S-measure ↑ | maxF ↑ | maxE ↑ | MAE ↓ |
+| :-- | :-: | :-: | :-: | :-: |
+| FM2-Net | 0.9285 | 0.9702 | 0.9276 | 0.0183 |
+
+### Results on the USOD dataset
+| Models | S-measure ↑ | maxF ↑ | maxE ↑ | MAE ↓ |
+| :-- | :-: | :-: | :-: | :-: |
+| FM2-Net | 0.9019 | 0.9379 | 0.9160 | 0.0414 |
+
+### Qualitative Results
+<div align="center">
+  <img src="assets/visual.jpg"/>
+</div><br/>
+
+
+## ❤️ Acknowledgements
+This project builds upon the excellent work of several open-source projects, including:
+ - [USOD10K](https://github.com/Underwater-Robotic-Lab/USOD10K)
+ - [Sigma](https://github.com/zifuwan/Sigma)
+ - [FDAM](https://github.com/Linwei-Chen/FDAM)
+
+We sincerely thank the authors and contributors for making their code publicly available.
