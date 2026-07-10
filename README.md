@@ -67,7 +67,7 @@ python3 train_test_eval.py --Testing True --Evaluation True
 ```
 
 ## ⭐ Results and checkpoints
-FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes. We release the model [checkpoint](https://drive.google.com/file/d/1xqj8T5M2cczIZU26poseAQri6VE6v9a0/view?usp=drive_link) that delivers the best performance on both benchmarks.
+FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes. We release the model [checkpoint](https://drive.google.com/file/d/1FHRr-B5DfBAaYnJMNYxQBth4RNKHEdq7/view?usp=sharing) that delivers the best performance on both benchmarks.
 ### Results on the USOD10K dataset
 | Models | S-measure ↑ | maxE ↑ | maxF ↑ | MAE ↓ |
 | :-- | :-: | :-: | :-: | :-: |
