@@ -18,8 +18,10 @@ conda activate FM2-Net
 pip install torch==2.0.0 torchvision==0.15.1 --index-url https://download.pytorch.org/whl/cu117
 ```
 
+## 🕹️ Prepare the data
+### Setup [USOD10K dataset](https://www.argoverse.org/av2.html)
 ````
-   Data
+   data
    |-- USOD10K
    |   |-- USOD10K-TR
    |   |-- |-- USOD10K-TR-RGB
