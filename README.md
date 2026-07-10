@@ -32,7 +32,7 @@ cd FM2-Net
 ```
 
 ## 🕹️ Prepare the data
-### Setup [USOD10K dataset](https://www.argoverse.org/av2.html)
+### Download the [USOD10K dataset](https://github.com/Underwater-Robotic-Lab/USOD10K/tree/main) and organize it as follows: 
 ````
    data
    |-- USOD10K
