@@ -6,8 +6,9 @@
 > **arXiv preprint arXiv:2603.06231**
 
 ## 🎞️ Pipeline
+The pipelines of the two key modules: the Hierarchical Dual-Frequency Fusion Module (HDFM) and the Cross-Frequency Filter Modulation Module (CFMM).
 <div align="center">
-  <img src="modules.jpg"/>
+  <img src="Modules.jpg"/>
 </div><br/>
 
 
@@ -55,18 +56,18 @@ cd FM2-Net
 
 ### Training FM2-Net
 ```
-cd FM2-Net/USOD
+cd USOD
 python3 train_test_eval.py --Training True --Testing True --Evaluation True
 ```
 
 ### Testing FM2-Net
 ```
-cd FM2-Net/USOD
+cd USOD
 python3 train_test_eval.py --Testing True --Evaluation True
 ```
 
 ## ⭐ Results and checkpoints
-FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes.
+FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes. We release the model [checkpoint](https://drive.google.com/file/d/1xqj8T5M2cczIZU26poseAQri6VE6v9a0/view?usp=drive_link) that delivers the best performance on both benchmarks.
 ### Results on the USOD10K dataset
 | Models | S-measure ↑ | maxE ↑ | maxF ↑ | MAE ↓ |
 | :-- | :-: | :-: | :-: | :-: |
