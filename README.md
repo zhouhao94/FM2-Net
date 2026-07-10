@@ -2,7 +2,7 @@
 ### [[Paper]](https://arxiv.org/abs/2603.06231)
 
 > [**Frequency-Decoupled Multimodal Fusion and Modulation for Underwater Salient Object Detection**](https://arxiv.org/abs/2507.17342)            
-> [**Hao Zhou, Xu Yang, Hai Huang, Min Liu， Jie-Ming Ma, Chao-Meng Chen, Xu-Yao Zhang, Fei Luo**  
+> [**Hao Zhou, Xu Yang, Hai Huang, Min Liu, Jie-Ming Ma, Chao-Meng Chen, Xu-Yao Zhang, Fei Luo**  
 > **arXiv preprint arXiv:2603.06231**
 
 ## 🛠️ Get started
