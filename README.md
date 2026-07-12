@@ -55,12 +55,17 @@ cd FM2-Net
 ## 🔥 Training and testing
 
 ### Training FM2-Net
+1. Download the pretrained [VMamba](https://github.com/MzeroMiko/VMamba) weights: [VMamba_Tiny](https://github.com/zifuwan/Sigma/blob/main/pretrained/vmamba/vssmtiny_dp01_ckpt_epoch_292.pth), and place it in the `pretrained/vmamba/` directory. </u>
+
+2. Then, run the following commands:
 ```
 cd USOD
 python3 train_test_eval.py --Training True --Testing True --Evaluation True
 ```
 
 ### Testing FM2-Net
+1. Download either our fine-tuned [checkpoint](https://drive.google.com/file/d/1FHRr-B5DfBAaYnJMNYxQBth4RNKHEdq7/view?usp=sharing) or your own trained checkpoint, and place it in the `checkpoint/` directory.
+2. Then, run the following commands:
 ```
 cd USOD
 python3 train_test_eval.py --Testing True --Evaluation True
