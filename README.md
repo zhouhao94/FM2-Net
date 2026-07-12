@@ -64,7 +64,7 @@ python3 train_test_eval.py --Training True --Testing True --Evaluation True
 ```
 
 ### Testing FM2-Net
-1. Download either our fine-tuned [checkpoint](https://drive.google.com/file/d/1FHRr-B5DfBAaYnJMNYxQBth4RNKHEdq7/view?usp=sharing) or your own trained checkpoint, and place it in the `checkpoint/` directory.
+1. Download either our fine-tuned [checkpoint](https://drive.google.com/file/d/185GTQM5C2BwfLu-SnnDtQGarkPpszAlD/view?usp=sharing) or your own trained checkpoint, and place it in the `checkpoint/` directory.
 2. Then, run the following commands:
 ```
 cd USOD
@@ -72,7 +72,7 @@ python3 train_test_eval.py --Testing True --Evaluation True
 ```
 
 ## ⭐ Results and checkpoints
-FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes. We release the model [checkpoint](https://drive.google.com/file/d/1FHRr-B5DfBAaYnJMNYxQBth4RNKHEdq7/view?usp=sharing) that delivers the best performance on both benchmarks.
+FM2-Net achieves state-of-the-art performance on the USOD10K and USOD datasets, demonstrating its effectiveness for salient object detection in complex underwater scenes. We release the model [checkpoint](https://drive.google.com/file/d/185GTQM5C2BwfLu-SnnDtQGarkPpszAlD/view?usp=sharing) that delivers the best performance on both benchmarks.
 ### Results on the USOD10K dataset
 | Models | S-measure ↑ | maxE ↑ | maxF ↑ | MAE ↓ |
 | :-- | :-: | :-: | :-: | :-: |
