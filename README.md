@@ -31,6 +31,11 @@ git clone https://github.com/zhouhao94/FM2-Net.git
 cd FM2-Net
 ```
 
+### Install Mamba
+```
+cd USOD/Models/encoders/selective_scan && pip install . && cd ../../..
+```
+
 ## 🕹️ Prepare the data
 ### Download the [USOD10K dataset](https://github.com/Underwater-Robotic-Lab/USOD10K/tree/main) and organize it as follows: 
 ````
